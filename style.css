@@ -1,0 +1,115 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+section {
+    padding: 20px;
+}
+/* Add this to your styles.css */
+
+/* Add this to your styles.css */
+
+.about-content {
+    display: flex;
+    flex-direction: row; /* Keep the default order with text on the left and image on the right */
+    align-items: center; /* Center align vertically */
+    margin: 20px; /* Adjust margin as needed */
+}
+
+.about-text {
+     flex: 2; /* Reduce the width of the text content */
+    padding-right: 200px; /* Add padding to separate text from the image */
+}
+.about-image img {
+    max-width: 100%; /* Ensure the image fits within the container */
+    height: auto; /* Maintain the image's aspect ratio */
+    margin-right: 20px; /* Add spacing between text and image (on the right side) */
+}
+
+/* Add this to your styles.css */
+
+#education {
+    margin: 20px; /* Adjust margin as needed */
+}
+
+.education-entry {
+    display: flex;
+    margin-bottom: 20px; /* Adjust spacing between entries */
+}
+
+.education-logo img {
+    max-width: 100px; /* Adjust the maximum logo width */
+    height: auto;
+    margin-right: 20px; /* Adjust spacing between logo and details */
+}
+
+.education-details {
+    flex: 1;
+}
+
+.education-details h3 {
+    font-size: 18px; /* Adjust heading font size */
+    margin-bottom: 5px;
+}
+
+.education-details p {
+    margin: 0;
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtn {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    min-width: 160px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
