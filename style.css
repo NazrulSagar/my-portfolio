@@ -75,6 +75,30 @@ section {
 .education-details p {
     margin: 0;
 }
+/* Add this to your styles.css */
+
+#experiences {
+    margin: 20px; /* Adjust margin as needed */
+}
+
+.experience {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px; /* Adjust spacing between entries */
+}
+
+.experience h3 {
+    font-size: 18px; /* Adjust heading font size */
+    margin-bottom: 5px;
+}
+
+.experience p {
+    margin: 0;
+}
+
+.experience-left, .experience-right {
+    flex: 1;
+}
 
 footer {
     text-align: center;
